@@ -9,10 +9,11 @@ div {
 
 .demos {
     text-align: center;
+    display: grid;
+    grid-template-columns: 475px 475px 475px;
 }
 
 .demos .demo-box {
-    width: 70%;
     box-shadow: 0.3rem 0.6rem 1rem rgba(0,0,0,0.08);
     display: inline-block;
     background-size: cover;
@@ -60,6 +61,7 @@ div {
 
 .demos .excerpt .excerpt-continue {
     text-align: center;
+    font-size: 12px;
 }
 
 .demos .excerpt .button {
