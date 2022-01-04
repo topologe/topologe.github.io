@@ -19,190 +19,188 @@
       crossorigin="anonymous"
     />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Padauk&display=swap"
-      rel="stylesheet"
-    />
-
     <!-- CSS -->
     <link rel="stylesheet" href="main.css" />
   </head>
 
   <body class="d-flex flex-column vh-100">
-    <nav
-      class="
-        navbar
-        sticky-top
-        navbar-expand-lg
-        bg-white
-        border border-1
-        d-flex
-        justify-content-between
-      "
-    >
-      <div class="col-6 col-md-4 col-lg-3 col-xl-3">
-        <a>
-          <img
-            src="Topologe%20Logo.png"
-            href="http://topologe.com"
-            class="col-9 col-md-8 col-lg-8 col-xl-6"
-          />
-        </a>
-      </div>
-      <a href="http://topologe.com" class="btn btn-info mr-2">Contact Us</a>
-    </nav>
+    <div>
+      <header
+        class="
+          navbar
+          sticky-top
+          navbar-expand-lg
+          bg-white
+          border border-1
+          d-flex
+          justify-content-between
+        "
+      >
+        <div class="col-6 col-md-4 col-lg-3 col-xl-3">
+          <a>
+            <img
+              src="Topologe%20Logo.png"
+              href="http://topologe.com"
+              class="col-9 col-md-8 col-lg-8 col-xl-6 rounded"
+            />
+          </a>
+        </div>
+        <a href="http://topologe.com" class="btn btn-info mr-2">Contact Us</a>
+      </header>
 
-    <div class="container-fluid px-4">
-      <div class="row row-cols-2 row-cols-lg-3 g-1 g-lg-3 mt-4">
-        <div class="col d-flex align-items-stretch">
-          <div class="card mb-3 shadow">
-            <div class="embed-responsive embed-responsive-4by3">
-              <div class="image-holder">
+      <div class="container-fluid py-2 px-4 mx-auto d-flex flex-column">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1 g-lg-3 mt-4">
+          <div class="col d-flex align-items-stretch">
+            <div class="card mb-3 shadow">
+              <div
+                id="flyby"
+                class="embed-responsive embed-responsive-16by9"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">FlyBy</h5>
+                <p class="card-text">
+                  Many large agencies are responsible for handling incoming data
+                  and reports daily from sources nationwide. These agencies must
+                  enter and store far more data than any single analyst can
+                  process in a reasonable amount of time. Such a deluge of data
+                  may lead many analysts to miss critical information, leading
+                  to employee burnout and low morale. Topologe created FlyBy to
+                  cluster data using NLP techniques of measuring text
+                  similarity, so that messages with similar words, phrases, and
+                  topics can be grouped together in 3-D space. After clustering,
+                  a human analyst can use the tool to inspect a cluster,
+                  determine the common threads of the cluster, and process the
+                  group of messages as a single entity. Once identified,
+                  clusters may be packaged and sent to the relevant maintenance
+                  group for further analysis. This approach takes tens of
+                  thousands of messages and sorts them into a few dozen
+                  clusters, reducing the processing time from
+                  <b>weeks</b> to <b>hours</b> for a single analyst.
+                </p>
+              </div>
+              <div class="card-body d-flex">
+                <a class="card-link btn btn-primary mt-auto" href="flyby"
+                  >View here</a
+                >
+              </div>
+              <div class="card-footer text-muted">
+                NLP, Clustering, 3-D Visualization, D3.js, Python, Automation
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card mb-3 shadow">
+              <div class="embed-responsive embed-responsive-16by9">
                 <img
-                  src="flyby.png"
+                  src="engine-dashboard.jpg"
                   class="card-img-top embed-responsive-item"
                   alt="..."
                 />
               </div>
+              <div class="card-body">
+                <h5 class="card-title">Remaining Useful Life</h5>
+                <p class="card-text">
+                  In the transportation industry, machine learning innovations
+                  are paving the way for predictive and preventive maintenance
+                  that can allow aircraft technicians to repair vehicles when
+                  they require maintenance rather than on a traditional fixed
+                  schedule. After measuring various health indicators in
+                  aircraft engines over their life cycles, Topologe developed an
+                  engine health predictor that provides technicians with a
+                  health score, saving valuable diagnostic time in the hangar.
+                  This preventative technology can also be applied to facilities
+                  management (e.g. servers, network equipment, radars, runway
+                  lights, etc).
+                </p>
+              </div>
+              <div class="card-body d-flex">
+                <a class="card-link btn btn-primary mt-auto" href="engine"
+                  >View here</a
+                >
+              </div>
+              <div class="card-footer text-muted">
+                Predictive Maintenance, Root Cause & Regression Analysis
+              </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">FlyBy</h5>
-              <p class="card-text">
-                Many large agencies are responsible for handling incoming data
-                and reports daily from sources nationwide. These agencies must
-                enter and store far more data than any single analyst can
-                process in a reasonable amount of time. Such a deluge of data
-                may lead many analysts to miss critical information, leading to
-                employee burnout and low morale. Topologe created FlyBy to
-                cluster data using NLP techniques of measuring text similarity,
-                so that messages with similar words, phrases, and topics can be
-                grouped together in 3-D space. After clustering, a human analyst
-                can use the tool to inspect a cluster, determine the common
-                threads of the cluster, and process the group of messages as a
-                single entity. Once identified, clusters may be packaged and
-                sent to the relevant maintenance group for further analysis.
-                This approach takes tens of thousands of messages and sorts them
-                into a few dozen clusters, reducing the processing time from
-                <b>weeks</b> to <b>hours</b> for a single analyst.
-              </p>
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card mb-3 shadow">
+              <div class="embed-responsive embed-responsive-16by9">
+                <img
+                  src="sentiment-stock.png"
+                  class="card-img-top dark embed-responsive-item"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sentiment Analysis</h5>
+                <p class="card-text">
+                  Utilizing Natural Language Processing (NLP) and social media
+                  mining, our Sentiment Analysis model provides a comprehensive
+                  analysis of large data sets to understand attitudes. Filtering
+                  the body of posts by dates, sources, and sentiment levels
+                  produces a method of tracking sentiments across time and
+                  social media source to provide more insight on public
+                  sentiment of a given organization across multiple categories
+                  of interest. This search engine can be used to automate
+                  analysis for a variety of linguistic settings, such as reviews
+                  made by employees or comments left by technicians and
+                  manufacturers. In addition, NLP can perform text
+                  summarization, root cause analysis, detect disinformation,
+                  etc.
+                </p>
+              </div>
+              <div class="card-body d-flex">
+                <a class="card-link btn btn-primary mt-auto" href="sentiment"
+                  >View here</a
+                >
+              </div>
+              <div class="card-footer text-muted">
+                Sentiment Analysis, Topic Modelling, Social Media Mining
+              </div>
             </div>
-            <div class="card-body d-flex">
-              <a class="card-link btn btn-primary mt-auto" href="flyby"
-                >View here</a
-              >
-            </div>
-            <div class="card-footer text-muted">
-              NLP, Clustering, 3-D Visualization, D3.js, Python, Automation
+          </div>
+          <div class="col d-flex align-items-stretch">
+            <div class="card mb-3 shadow">
+              <div class="embed-responsive embed-responsive-16by9">
+                <img
+                  src="cybersec-unsplash.jpg"
+                  class="card-img-top embed-responsive-item"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cybersecurity</h5>
+                <p class="card-text">
+                  Cyberthreats are an ever-evolving threat to every business and
+                  government organization holding sensitive information.
+                  Malicious bots and malware generate very different traffic
+                  patterns than most regular employees, which our ML model
+                  detects and reports. By monitoring dozens of cybersecurity
+                  data points, our model detects risky behavior and protects
+                  valuable information from cyber threats. When viewing two
+                  features at a time, analysts can visually distinguish daily
+                  activity from high-risk behaviors. In addition, our models
+                  promotes responses to threats with confidence and Security
+                  Intelligence Automation.
+                </p>
+              </div>
+              <div class="card-body d-flex">
+                <a
+                  class="card-link btn btn-primary mt-auto"
+                  href="cybersecurity"
+                  >View here</a
+                >
+              </div>
+              <div class="card-footer text-muted">
+                Network Traffic Analysis, Anomaly & Threat Detection
+              </div>
             </div>
           </div>
         </div>
-        <div class="col d-flex align-items-stretch">
-          <div class="card mb-3 shadow">
-            <div class="embed-responsive embed-responsive-16by9">
-              <img
-                src="RUL_Top.png"
-                class="card-img-top embed-responsive-item"
-                alt="..."
-              />
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Remaining Useful Life</h5>
-              <p class="card-text">
-                In the transportation industry, machine learning innovations are
-                paving the way for predictive and preventive maintenance that
-                can allow aircraft technicians to repair vehicles when they
-                require maintenance rather than on a traditional fixed schedule.
-                After measuring various health indicators in aircraft engines
-                over their life cycles, Topologe developed an engine health
-                predictor that provides technicians with a health score, saving
-                valuable diagnostic time in the hangar. This preventative
-                technology can also be applied to facilities management (e.g.
-                servers, network equipment, radars, runway lights, etc).
-              </p>
-            </div>
-            <div class="card-body d-flex">
-              <a class="card-link btn btn-primary mt-auto" href="engine"
-                >View here</a
-              >
-            </div>
-            <div class="card-footer text-muted">
-              Predictive Maintenance, Root Cause & Regression Analysis
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex align-items-stretch">
-          <div class="card mb-3 shadow">
-            <div class="embed-responsive embed-responsive-4by3">
-              <img
-                src="sentiment_analysis.png"
-                class="card-img-top dark embed-responsive-item"
-                alt="..."
-              />
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Sentiment Analysis</h5>
-              <p class="card-text">
-                Utilizing Natural Language Processing (NLP) and social media
-                mining, our Sentiment Analysis model provides a comprehensive
-                analysis of large data sets to understand attitudes. Filtering
-                the body of posts by dates, sources, and sentiment levels
-                produces a method of tracking sentiments across time and social
-                media source to provide more insight on public sentiment of a
-                given organization across multiple categories of interest. This
-                search engine can be used to automate analysis for a variety of
-                linguistic settings, such as reviews made by employees or
-                comments left by technicians and manufacturers. In addition, NLP
-                can perform text summarization, root cause analysis, detect
-                disinformation, etc.
-              </p>
-            </div>
-            <div class="card-body d-flex">
-              <a class="card-link btn btn-primary mt-auto" href="sentiment"
-                >View here</a
-              >
-            </div>
-            <div class="card-footer text-muted">
-              Sentiment Analysis, Topic Modelling, Social Media Mining
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex align-items-stretch">
-          <div class="card mb-3 shadow">
-            <div class="embed-responsive embed-responsive-16by9">
-              <img
-                src="cybersecurity.png"
-                class="card-img-top embed-responsive-item"
-                alt="..."
-              />
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Cybersecurity</h5>
-              <p class="card-text">
-                Cyberthreats are an ever-evolving threat to every business and
-                government organization holding sensitive information. Malicious
-                bots and malware generate very different traffic patterns than
-                most regular employees, which our ML model detects and reports.
-                By monitoring dozens of cybersecurity data points, our model
-                detects risky behavior and protects valuable information from
-                cyber threats. When viewing two features at a time, analysts can
-                visually distinguish daily activity from high-risk behaviors. In
-                addition, our models promotes responses to threats with
-                confidence and Security Intelligence Automation.
-              </p>
-            </div>
-            <div class="card-body d-flex">
-              <a class="card-link btn btn-primary mt-auto" href="cybersecurity"
-                >View here</a
-              >
-            </div>
-            <div class="card-footer text-muted">
-              Network Traffic Analysis, Anomaly & Threat Detection
-            </div>
-          </div>
-        </div>
+        <footer class="mt-auto text-muted text-center">
+          &copy; 2018-2021 Topologe
+        </footer>
       </div>
     </div>
   </body>
