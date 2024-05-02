@@ -1,0 +1,42 @@
+ <!-- <div class="col d-flex align-items-stretch">
+            <div class="card mb-3 shadow">
+              <div class="embed-responsive embed-responsive-16by9">
+                <a href="https://faa-orders-demo-h24vpa562a-uc.a.run.app/">
+                  <img
+                    src="connecting_dots.jpeg"
+                    class="card-img-top dark embed-responsive-item"
+                    alt="..."
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Document Viewer</h5>
+                <p class="card-text">
+                  Finding connections between a sea of documents can be
+                  challenging. By enhancing the data processing techniques
+                  during the digitization of documents, Topologe aims to expand
+                  search capabilities so that you can find the needle in the
+                  haystack faster. Our document viewer streamlines the discovery
+                  process by combining 3 tools: 1. Graphs map out documents and
+                  their topics 2. Diff Viewer visually compares two documents
+                  side by side 3. Semantic search exhaustively finds all matches
+                  for a given topic (e.g. "aircraft" matches "plane"). With
+                  broad applications across legal, administrative, and HR teams,
+                  Document Viewer provides an efficient and innovative way to
+                  view your data.
+                </p>
+              </div>
+
+              <div class="card-body d-flex">
+                <a
+                  class="card-link btn btn-primary mt-auto"
+                  href="https://faa-orders-demo-h24vpa562a-uc.a.run.app/"
+                  >View here</a
+                >
+              </div>
+              <div class="card-footer text-muted">
+                NLP, Network Graph, Network Analysis, Semantic Search, Cloud
+                Architecture
+              </div>
+            </div>
+          </div> -->
